@@ -88,4 +88,14 @@ func main() {
 		}
 	}
 
+	// what is sum of 1+2+3+..... +10
+
+	f := 0
+
+	fmt.Println("sum print start")
+	for z := 1; z <= 10; z++ {
+		f += z
+	}
+	fmt.Println(f)
+
 }
