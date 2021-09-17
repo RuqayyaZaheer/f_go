@@ -13,6 +13,10 @@ func naked(val int) (x, y int) {
 	return
 }
 
+// variables
+
+var c, python, java bool
+
 func main() {
 
 	fmt.Println(naked(10))
@@ -20,5 +24,6 @@ func main() {
 	// get return in separate variable
 	x, z := naked(10)
 	fmt.Println(x, z)
-
+	var i int
+	fmt.Println(i, c, python, java)
 }
