@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
+// add for to see git cmd
 func index(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Fprintf(w, "<h1>Hello world its my first Go web </h1>")
